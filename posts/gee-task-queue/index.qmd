@@ -1,0 +1,14 @@
+---
+title: "Test"
+description: "Other Tests"
+date: 2026-11-10
+categories: [earth-engine, data-engineering, python]
+draft: true
+---
+
+Most Earth Engine tutorials end at `task.start()`. Production starts there.
+
+```python
+task = ee.batch.Export.image.toCloudStorage(...)
+task.start()
+```
